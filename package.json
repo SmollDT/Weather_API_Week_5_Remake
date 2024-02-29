@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "The Weather API",
   "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">= 18 <21"
+},  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Zohaib Saghir",
   "license": "ISC",
-  
+
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
     "express": "^4.18.2",
