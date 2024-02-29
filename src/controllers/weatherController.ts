@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import {
   generateDublinWeatherData,
   generateLondonWeatherData,
-} from "../services/weatherServices.ts";
+} from "../services/weatherServices.js";
 import { validationResult } from "express-validator";
 
 export const getWeatherData = async (req: Request, res: Response) => {
