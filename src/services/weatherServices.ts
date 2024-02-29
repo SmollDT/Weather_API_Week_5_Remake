@@ -8,7 +8,7 @@ export const generateLondonWeatherData = (): WeatherData => {
         rain: faker.number.int({min: 65, max: 75}),
     };
 
-    return generateWeatherData;
+    return generatedWeatherData;
 };
 
 export const generateDublinWeatherData = (): WeatherData => {
@@ -19,5 +19,5 @@ export const generateDublinWeatherData = (): WeatherData => {
         rain: faker.number.int({min: 65, max: 75}),
     };
 
-    return generateWeatherData;
+    return generatedWeatherData;
 };
