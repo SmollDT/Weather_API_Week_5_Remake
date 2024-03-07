@@ -1,4 +1,5 @@
 import express from "express";
+import weatherRoute from "./routes/weatherRouter.js";
 import cors from "cors";
 
 // We will create an express app
@@ -9,6 +10,9 @@ const PORT = 3000;
 
 app.use(express.json());
 app.use(cors());
+
+// Our weather route
+app.use("/api/weather", weatherRoute);
 
 // Start the express server
 app.listen(PORT, () => {
