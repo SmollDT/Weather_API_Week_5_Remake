@@ -1,7 +1,7 @@
 import algosdk from "algosdk";
 
 const algodToken = "a".repeat(64);
-const server: string = "https://localhost";
+const server: string = "http://localhost";
 const port: string = "4001";
 
 const mnemonic: string = 
